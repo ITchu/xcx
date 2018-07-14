@@ -1,0 +1,14 @@
+<view class='record-page'>
+   <view class="no-order" hidden="{{contentArr.length ? true : false}}">
+        <image src="/images/index/icon_test_none.png" class="no-order-img"></image>
+        <view class="text">暂无测肤记录</view>
+      </view>
+    <view class='contentView' wx:for="{{contentArr}}" wx:key="index" bindtap='jumpdetailClick' wx:for-item='item'>
+    
+      <view class='titleview'>
+        本次测肤{{item.score}}分
+        <view class='timeview'>{{item.time}}</view>
+      </view>
+      <image src='/images/index/icon_enter.png' mode='aspectFit'></image>
+    </view>
+</view> 

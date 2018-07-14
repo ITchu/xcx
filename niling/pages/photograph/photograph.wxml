@@ -1,0 +1,7 @@
+<!--pages/photograph/photograph.wxml-->
+<view class='photograph-page'>
+    <view class='discern'>
+      <image src='{{tempFilePaths}}'></image>
+      <text>正在识别中...</text>
+    </view>
+</view>

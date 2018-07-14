@@ -1,0 +1,28 @@
+<view class='tabbar-page'>
+    <view class="c_tabbar" style="color:{{data.color?data.color:''}};border-color: {{data.borderStyle?data.borderStyle:''}};background-color:{{data.backgroundColor?data.backgroundColor:''}}">
+      <!--首页-->
+      <view wx:for="{{ data.list }}" wx:for-item="item" wx:for-index="idx" wx:key="key" class="tabbar_item {{item.iconType=='big' ? 'big_icon':''}} {{item.iconType =='overflow' ? 'big_icon overflow':''}}" data-index="{{idx}}" bindtap="change">
+        <image class="tabbar_item_img {{item.iconType? item.iconType:''}}" src="{{index == idx && !item.iconType? item.selectedIconPath : item.iconPath}}"></image>
+        <view wx:if="{{item.text && !item.iconType}}" class="tabbar_item_title {{index == idx ? 'selected' : ''}}" style="color:{{index == idx && data.selectedColor?data.selectedColor:''}}">{{item.text}}</view>
+      </view>
+    </view>
+    <view class='photo' wx:if="{{show}}">
+      <view class='xuan'></view>
+      <view class='xiangji'>
+        <image src='/images/index/icon_pink_camera.png'></image>
+      </view>
+      <view class='choose'>
+        <view class='close'>
+          <image src='/images/index/icon_close.png' bindtap='close'></image>
+        </view>
+        <view class='chooselist'> 
+          <image src='/images/index/icon_test_mine.png' bindtap='goCamera'></image>
+          <text>测肤数据存入个人记录</text>
+        </view>
+        <view class='chooselist'> 
+          <image src='/images/index/icon_test_friend.png' bindtap='goAlbum'></image>
+          <text>测肤记录不会记录</text>
+        </view>
+      </view>
+    </view>
+</view>

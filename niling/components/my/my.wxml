@@ -1,0 +1,53 @@
+<!--components/my/my.wxml-->
+<view class='father'>
+<view class='info'>
+  <image class="blur" src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'>
+  </image>
+  <view class='name'>
+  <text >用户名</text>
+  <view> <text >9999</text></view>
+ 
+  </view>
+
+    <image class="head" src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+</view>
+
+<view class="card">
+  <view >
+    <view class="item" bindtap='sign'>
+
+      <image class="images"  src='/images/icon_card.png'></image>
+      <text class='word'>打卡签到</text>
+    </view>
+    <view class="item">
+
+      <image class="images" src='/images/icon_news.png'></image>
+      <text class='word'>消息中心</text>
+    </view>
+    <view class="item">
+
+      <image class="images" src='/images/icon_report.png'></image>
+      <text class='word'>测肤报告</text>
+    </view>
+  </view>
+
+  <view class='demo'>
+    <view class="item">
+
+      <image class="images" src='/images/icon_present.png'></image>
+
+      <text class='word'>我的赠品</text>
+    </view>
+    <view class="item">
+
+      <image class="images" src='/images/icon_enshrine.png'></image>
+      <text class='word'>我的收藏</text>
+    </view>
+    <view class="item" bindtap='feedBack'>
+
+      <image class="images" src='/images/icon_opinion.png'></image>
+      <text class='word'>意见反馈</text>
+    </view>
+  </view>
+</view>
+ </view>

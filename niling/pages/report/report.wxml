@@ -1,0 +1,54 @@
+<view class='report-page'>
+  <image class='backgroundimage' src='/images/index/background.png'>
+  </image>
+  <view class='scoreview'>
+    <text>98</text>
+    <text class='labeltext'>分</text>
+  </view>
+
+  <view class='timeview'>
+    2018-09-24 13:24
+  </view>
+  <view class='moreview'>
+    查看更多 >
+  </view>
+  <view class='contentview1'>
+    <view class='middView'>
+      <view>
+        <view class='titleView'>明星脸</view>
+        <view class='imageview'>
+          <image class='imagegirl' src='/images/index/star.png'></image>
+          <image class='imagegirl' src='/images/index/star.png'></image>
+        </view>
+        <view class='radiusview'>
+          <view class='similarityview'>96%</view>
+          <view class='similarity'>相似度</view>
+        </view>
+        <view class='describeview'>和你撞脸的明星是刘亦菲和你撞脸的明星是刘亦菲和你撞脸的明星是刘亦菲和你撞脸的明星是刘亦菲和你撞脸的明星是刘亦菲和你撞脸的明星是刘亦菲</view>
+      </view>
+
+    </view>
+  </view>
+  <view class='contentview1'>
+    <view class='titleView'>检测特征</view>
+    <view class='characteristicsview'>
+      <view class='item'  wx:for="{{characteristicsArr}}" wx:key="index">{{item}}</view>
+    </view>
+  </view>
+
+  <view class='contentview1' wx:for="{{contentArr}}" wx:key="index">
+    <view class='titleView'>{{item.title}}</view>
+
+    <view class='contenttext'>
+      <view class='contenttitle'>{{item.contenttitle}}</view>
+      <view class='content'>{{item.content}}</view>
+    </view>
+  </view>
+  <view class='bottomView'>
+    <image class='infoimage' src='/images/index/icon_info.png'></image>
+    本报告仅供参考，非专业指导和分析
+  </view>
+  <view class='enjoy'>
+    <text>立即分享</text>
+  </view>
+</view>

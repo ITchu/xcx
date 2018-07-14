@@ -1,0 +1,9 @@
+{ "navigationBarTitleText": "逆龄时光",
+  "usingComponents": {
+    "tabbar": "/components/tabbar/tabbar",
+    "index": "/components/index/index",
+    "rank": "/components/rank/rank",
+    "subject": "/components/subject/subject",
+    "my": "/components/my/my"
+  }
+}

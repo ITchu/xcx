@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/course/course",
+    "pages/record/record",
+    "pages/report/report",
+    "pages/photograph/photograph"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "逆龄时光",
+    "navigationBarTextStyle": "black"
+  }
+}

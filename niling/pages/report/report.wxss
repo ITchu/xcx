@@ -1,0 +1,175 @@
+
+.backgroundimage {
+  position: absolute;
+  z-index: -10;
+  width: 750rpx;
+  height: 540rpx;
+}
+
+.scoreview {
+  padding-top: 130rpx;
+  width: 100%;
+  font-size: 100rpx;
+  color: white;
+  text-align: center;
+}
+.scoreview text{
+  margin-right: 6rpx;
+}
+
+.labeltext {
+  padding-top: 70rpx;
+  font-size: 26rpx;
+  text-align: center;
+}
+
+.timeview {
+  width: 100%;
+  padding-top: 170rpx;
+  font-size: 26rpx;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.moreview {
+  width: 100%;
+  padding-top: 10rpx;
+  font-size: 30rpx;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.middView {
+  margin-top: 80rpx;
+  padding-bottom: 20rpx;
+}
+
+.imageview {
+  padding-top: 60rpx;
+  padding-bottom: 60rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.imagegirl {
+  margin-left: 60rpx;
+  width: 280rpx;
+  height: 280rpx;
+  border-radius: 20rpx;
+}
+.imagegirl:nth-of-type(2){
+  margin-left: 70rpx;
+}
+.radiusview {
+  position: absolute;
+  font-size: 40rpx;
+  left: 50%;
+  margin-left: -71rpx;
+  top: 760rpx;
+  color: white;
+  width: 143rpx;
+  height: 143rpx;
+  box-shadow: #eee 1rpx 2rpx 2rpx 2rpx;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 121, 157);
+  border-radius: 50%;
+  background-color: rgb(255, 121, 157);
+}
+.similarityview {
+  font-size: 42rpx;
+  text-align: center;
+  color: rgb(255, 246, 249);
+  font-weight: bold;
+  margin-top: 30rpx;
+}
+
+.similarity {
+  font-size: 26rpx;
+  text-align: center;
+  color: rgb(255, 246, 249);
+}
+
+.describeview {
+  padding-left: 50rpx;
+  padding-right: 50rpx;
+  color: #999;
+  font-size: 30rpx;
+}
+
+.characteristicsview {
+  margin: 60rpx 34rpx 0 38rpx;  /*上 右 下 左 */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 2;
+}
+
+.characteristicsview .item {
+  color: #666;
+  font-size: 32rpx;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 20rpx;
+
+}
+
+.contentview1 {
+  margin-bottom: 90rpx;
+}
+
+.titleView {
+  color: rgb(51, 51, 51);
+  padding-left: 30rpx;
+  border-left: 4px solid #ff5885;
+  font-weight: 600;
+}
+
+.contenttitle {
+  color: #808080;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+
+.contenttext {
+  padding-left: 38rpx;
+  padding-right: 34rpx;
+  padding-top: 10rpx;
+  font-size: 32rpx;
+  color: rgb(102, 102, 102);
+}
+
+.bottomView {
+  padding-left: 38rpx;
+  font-size: 28rpx;
+  padding-bottom: 63rpx;
+  color: rgb(153, 153, 153);
+}
+
+.infoimage {
+  width: 24rpx;
+  height: 24rpx;
+}
+.enjoy{
+  width: 690rpx;
+  height: 98rpx;
+  margin:  0 auto 60rpx;
+  background-image: -moz-linear-gradient( -45deg, rgb(254,77,125) 0%, rgb(248,124,158) 100%);
+  background-image: -webkit-linear-gradient( -45deg, rgb(254,77,125) 0%, rgb(248,124,158) 100%);
+  background-image: -ms-linear-gradient( -45deg, rgb(254,77,125) 0%, rgb(248,124,158) 100%);
+  box-shadow: 0rpx 20rpx 20rpx 0rpx rgba(254, 77, 125, 0.2);
+  border-radius: 49rpx;
+}
+
+.enjoy text{
+  display: block;
+  text-align: center;
+  line-height: 98rpx;
+  color: #fff;
+  font-size: 34rpx;
+}

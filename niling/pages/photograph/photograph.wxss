@@ -1,0 +1,26 @@
+/* pages/photograph/photograph.wxss */
+.discern{
+  width: 380rpx;
+  height: 634rpx;
+  position: relative;
+  top:186rpx;
+  left: 50%;
+  margin-left: -190rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.discern image{
+  width: 380rpx;
+  height: 380rpx;
+  border-radius: 50%;
+}
+.discern text{
+  display:  block;
+  width: 100%;
+  text-align: center;
+  font-size: 36rpx;
+  font-family: "PingFang";
+  color: rgb(102, 102, 102);
+}
+

@@ -1,0 +1,62 @@
+/* components/my/my.wxss */
+
+.info {
+  position: relative;
+}
+
+.blur {
+  filter: blur(10px);
+}
+
+.name {
+  position: absolute;
+  left: 30rpx;
+  top: 40%;
+}
+
+.head {
+  position: absolute;
+  right: 30rpx;
+  top: 25%;
+  width: 200rpx;
+  height: 200rpx;
+  border: 0 solid #f00;
+  border-radius: 400rpx;
+}
+
+.father {
+
+}
+
+.card {
+  position: absolute;
+  border: 2rpx solid #fff;
+  border-radius: 10rpx;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  margin-top: -110rpx;
+  padding: 20rpx;
+left: 50%;
+margin-left: -320rpx;  /*此处的负值是宽度的一半*/
+}
+
+.demo {
+  margin-top: 40rpx;
+}
+
+.item {
+  display: inline-block;
+  text-align: center;
+  width: 200rpx;
+}
+
+.images {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.word {
+  display: block;
+  font-size: 25rpx;
+  color: #666666
+}
